@@ -1,5 +1,10 @@
 package hello10
 
-func Hello() string {
-	return "Hello!"
+import (
+	"fmt"
+	"rsc.io/quote"
+)
+
+func main() {
+	fmt.Println(quote.Hello())
 }
